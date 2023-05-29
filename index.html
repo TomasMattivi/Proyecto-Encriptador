@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Alura challengue - Encriptador Tomas Luciano Mattivi</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <meta name="viewpoint" content="width=device-width">
+        <script type="text/javascript" src="script.js"></script>
+    </head>
+
+    <body>
+        
+        <div class="container">
+            <h1><img src="imagenes/Logo.png" alt="logo alura"></h1>
+        </div>
+            
+            <div class="encriptar">
+                <textarea name="text" class="text" id="text" cols="30" rows="10" placeholder="Ingrese el texto que quiera encriptar"></textarea>
+            </div>
+
+            <div class="exclamacion">
+                <img src="imagenes/simbolo-exclamacion.png" alt="signo de exclamacion">
+                <p>Solo letras minusculas y sin acento</p>
+            </div>
+
+            <div class="botones">
+                <button class="boton-encriptar" type="button" onclick="encriptar()">Encriptar</button>
+                <button class="boton-desencriptar" type="button" onclick="desencriptar()">Desencriptar</button>
+            </div>
+
+            <div class="encriptado">
+                <textarea name="textarea2" class="textarea2" id="textarea2" cols="30" rows="10"></textarea>  
+
+                <img src="imagenes/Muñeco.png" alt="Munieco" id="image-encriptado">
+
+                <div class="mensaje-encriptado" id="mensaje-encriptado">
+                    <h2 id="mensaje-no-encontrado">Ningun mensaje encontrado</h2>
+                    <p id="parrafe">Ingresar el texto que quieras encriptar o desencriptar</p>
+                    <button id="copiar" type="button" name="button" onclick="copiar()">Copiar</button>
+                </div>
+                </div>
+
+                <footer class="footer">
+
+                    <h3 class="mensaje-footer">Creado por Tomas Luciano Mattivi</a></h3>
+                    <p class="linkedin">Mi Linkedin: <a href="https://www.linkedin.com/in/tomas-mattivi/"><img src="imagenes/Linkedin.png" class="imagen-footer"></p></a>
+                </footer>
+
+        </body>
+        </html>
